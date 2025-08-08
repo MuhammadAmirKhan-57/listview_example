@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:listview_example/horizental_listView.dart';
 import 'package:listview_example/listview_screen.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ListViewScreen(),
+      home: HorizentalListView(),
     );
   }
 }
